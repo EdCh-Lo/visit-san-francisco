@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting San Francisco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- Navigation -->
+
+<nav>
+    <ul class="list-nav">
+        <li class="item-nav">
+            <a href="#home">Home</a>
+        </li>
+        <li class="item-nav">
+            <a href="#asym">Activities</a>
+        </li>
+        <li class="item-nav">
+            <a href="#tarifs">Pricing</a>
+        </li>
+        <li class="item-nav">
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <img src="ressources/menu.svg" alt="logo menu" class="logo-menu">
+</nav>
+
+
+<!-- Accueil -->
+
+<div class="accueil" id="home">
+    <h1>Discover San Francisco</h1>
+    <p class="sous-titre">The Coolest California City</p>
+    <a href="#asym" class="btn-accueil">See More</a>
+</div>
+
+
+<!-- Section asymétrique -->
+
+<section class="section-asymetrique" id="asym">
+
+    <h2>Do Not Miss</h2>
+    <div class="bloc bloc-left bloc-1">
+        <div class="bloc-txt-left">
+            <h3>Visit the City</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dicta eveniet harum nostrum provident maxime consequuntur officiis est aperiam tempore et sit aspernatur aliquid earum voluptatum suscipit accusantium! Assumenda ullam, sint possimus deleniti temporibus cupiditate, at facere dicta doloribus odio soluta recusandae ipsum, provident itaque accusantium! </p>
+            <button>See more</button>
+        </div>
+    </div>
+    <img src="ressources/visit-city.jpeg" alt="San Francisco city" class="img-grid img-grid-1">
+
+    <div class="bloc bloc-right bloc-2">
+        <div class="bloc-txt-right">
+            <h3>Feel the Nature</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dicta eveniet harum nostrum provident maxime consequuntur officiis est aperiam tempore et sit aspernatur aliquid earum voluptatum suscipit accusantium! Assumenda ullam, sint possimus deleniti temporibus cupiditate, at facere dicta doloribus odio soluta recusandae ipsum, provident itaque accusantium! Ipsam voluptatum veniam sunt!</p>
+            <button class="btn-bloc-left">See more</button>
+        </div>
+    </div>
+    <img src="ressources/friends-san-francisco.jpeg" alt="San Francisco harbour" class="img-grid img-grid-2">
+
+    <div class="bloc bloc-left bloc-3">
+        <div class="bloc-txt-left">
+            <h3>Enjoy the Old Town</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dicta eveniet harum nostrum provident maxime consequuntur officiis est aperiam tempore et sit aspernatur aliquid earum voluptatum suscipit accusantium! Assumenda ullam, sint possimus deleniti temporibus cupiditate, at facere dicta doloribus odio soluta recusandae ipsum, provident itaque accusantium!</p>
+            <button class="btn-bloc-left">See more</button>
+        </div>
+    </div>
+    <img src="ressources/old-town-san-francisco.jpeg" alt="Geisha" class="img-grid img-grid-3">
+
+    <div class="ligne-gauche"></div>
+    <div class="ligne-droite"></div>
+</section>
+
+
+<!--  Section parallax -->
+
+<section class="parallax">
+    <p>🇺🇸</p>
+    <span>Welcome to the USA</span>
+</section>
+
+
+<!-- Section tarifs -->
+
+<section class="section-tarifs" id="tarifs">
+    <h3>Get the Best with our Guides...</h3>
+    <hr>
+
+    <div class="container-tarifs">
+        <div class="cartes-tarifs">
+            <h4>Classical</h4>
+            <span>100€</span>
+            <p>✅  Visit the castles</p>
+            <p>✅  City tour</p>
+            <p>✅  Folklore show</p>
+            <p>❌  Exceptional typical restaurant</p>
+            <p>❌  Multi-day cultural tour</p>
+            <p>❌  Private access to grand places</p>
+
+            <a href="#contact">Book a guide</a>
+        </div>
+
+        <div class="cartes-tarifs">
+            <h4>Discover</h4>
+            <span>250€</span>
+            <p>✅  Visit the castles</p>
+            <p>✅  City tour</p>
+            <p>✅  Folklore show</p>
+            <p>✅  Exceptional typical restaurant</p>
+            <p>❌  Multi-day cultural tour</p>
+            <p>❌  Private access to grand places</p>
+
+            <a href="#contact">Book a guide</a>
+        </div>
+
+        <div class="cartes-tarifs">
+            <h4>Premium</h4>
+            <span>400€</span>
+            <p>✅  Visit the castles</p>
+            <p>✅  City tour</p>
+            <p>✅  Folklore show</p>
+            <p>✅  Exceptional typical restaurant</p>
+            <p>✅  Multi-day cultural tour</p>
+            <p>✅  Private access to grand places</p>
+
+            <a href="#contact">Book a guide</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section Contact -->
+
+<section class="section-contact" id="contact">
+    <h2>Let's get in touch</h2>
+
+    <div class="container-form">
+        <form class="form-bloc">
+
+            <div class="form-groupe">
+                <label for="name">Enter your name</label>
+                <input type="text" placeholder="Name" required id="name">
+            </div>
+
+            <div class="form-groupe">
+                <label for="lastname">Enter your last name</label>
+                <input type="text" placeholder="Last name" required id="lastname">
+            </div>
+            <div class="form-groupe">
+                <textarea id="txt" placeholder="Your message" required></textarea>
+            </div>
+            <div class="form-groupe">
+                <input type="submit" value="SUBMIT" class="button-sub">
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    Tous Droits Réservés &copy;
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+ 
+</body>
+</html>
