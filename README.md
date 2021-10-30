@@ -1,12 +1,12 @@
 # The Visit San Francisco Website by Eden
 
-**Here is my [Visit] [San] [Francisco] website!** 😁
+**Here is my Visit San Francisco website!** 😁
 
 Very simple singlepage website, fully responsive (with burger menu on mobile), using Greensock library to animate content on scroll and CSS Grid.
 
 ## Built with
 
-- [Html], [CSS], [VanillaJS]
+- Html, CSS, VanillaJS
 - Using [Greensock](https://greensock.com/) animation library
 
 ## License
